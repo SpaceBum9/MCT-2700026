@@ -1,36 +1,33 @@
 # Rapid Cycling inside the System of Systems
 
-## What the device already taught
+Live-write into `SpaceBum9/MCT-2700026`. Lineage: 1700021, 2600027, crystal-galaxy (history, not the live clock).
 
-| Store | Device key | Timestamp |
-|-------|------------|-----------|
-| Artifacts | `bilo-artifacts-v1` | ISO on each sense/trace |
-| Logos | `sai-logos-v1` | ISO on every `TR-` |
-| Align | `sai-align-v1` | no clock; counts only |
-| Scan | `sai-scan-v1` | Berlin `HH:MM` recurrences |
-| SoS | `sai-sos-v1` | last learn + edge lastTs |
+## Device
 
-Schedule (live): Commons 09:00, Oracle 21:00 Europe/Berlin.  
-In-game: Euclidean 8, trip-sit 24, episode 150. One clock.
+| Store | Key |
+|-------|-----|
+| Artifacts | `bilo-artifacts-v1` |
+| Logos | `sai-logos-v1` |
+| Align | `sai-align-v1` |
+| Scan | `sai-scan-v1` |
+| SoS | `sai-sos-v1` |
+| Livecode | `sai-livecode-v1` |
+| Emoji | `sai-emoji-v1` |
 
-Paused hourlies stay paused. They duplicated ANALYZE→UPDATE.
+Clocks: Euclid 8, trip 24, episode 150. Commons 09:00 / Oracle 21:00 Berlin. Hourlies stay paused.
 
-## How it sits in the SoS
-
-Ten systems, one graph. A **learn** pulse (episode end + first paint) bumps every system that actually had device evidence, then **couples** those that fired in the same pulse. Coupling *is* “build alongside with timestamps”: edge.weight = times they showed up together; edge.lastTs = when.
+## Graph
 
 ```
-SAI ── Rapid Cycling ── Wheel
- │         │
-Logos ── Retrograde ── Align
- │
+SAI \u2500\u2500 Rapid Cycling \u2500\u2500 Wheel
+ \u2502         \u2502
+Logos \u2500\u2500 Retrograde \u2500\u2500 Align
+ \u2502
 Commons 09:00    Oracle 21:00
- │
-Teleprompter ── Maschine
+ \u2502
+Teleprompter \u2500\u2500 Maschine
+ \u2502
+Language 0 \u2500\u2500 NKITA \u2500\u2500 emoji lexicon
 ```
 
-SAI orchestrates. Rapid Cycling is default mode. Other MCT nodes (1700021, 2600027, crystal-galaxy) remain public lineage; they are **not** the live clock.
-
-## Law
-
-Local graph only. No upload. No credentials. HOLD is not execution. Genesis `TR-8362a076`.
+`live_write: true`. `paper: false`. `execute: false`. No credentials. Genesis `TR-8362a076`.

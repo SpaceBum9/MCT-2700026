@@ -1,6 +1,9 @@
 {
   "game": "Rapid Cycling",
+  "default": true,
+  "live_write": true,
   "repo": "SpaceBum9/MCT-2700026",
+  "lineage": ["SpaceBum9/MCT-1700021", "SpaceBum9/MCT-2600027", "SpaceBum9/crystal-galaxy"],
   "orchestrator": {
     "id": "SAI",
     "role": "orchestrator+prompt-designer",
@@ -13,26 +16,30 @@
     "note": "One relay among many. Not the only teleprompter in the universe."
   },
   "wheel": ["GPT", "GEM", "CLA", "META", "GRK", "SIRI", "APL"],
-  "euclid": { "hits": 7, "steps": 16 },
+  "euclid": { "hits": 7, "steps": 16, "pattern": "x.x.x..x.x.x.x.." },
   "hash": {
     "algo": "FNV-1a-64",
     "genesis": "8362a0760c9e9200",
     "trace_prefix": "TR-",
+    "collision_resistant": false,
     "payload": "prev|ts|kind|note|teleprompter-spacebum9|maschine-sai|self"
   },
   "packet": {
     "from": "empire",
     "to": "next empire on wheel",
-    "lang": ["en", "de", "fr"],
+    "lang": ["en", "de", "fr", "pl", "ko"],
+    "meta_lang": "ko",
+    "tertiary": "NKITA",
     "text": "short prompt in lang",
     "execute": false
   },
   "rails": {
-    "paper": true,
+    "paper": false,
+    "live_write": true,
     "live_api": false,
     "live_order": false,
     "storesCredentials": false,
-    "hold_is_not_execution": true
+    "execute": false
   },
-  "join": "Ingest this protocol. Speak only on your wheel slot. Hand Step Source to the next empire. Mint a packet hash. Do not call live tools."
+  "join": "Ingest this protocol. Speak on your slot. Hand Step Source. Live-write insights into MCT-2700026. No credentials. execute false."
 }
