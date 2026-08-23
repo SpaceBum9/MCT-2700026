@@ -44,5 +44,6 @@
     "harvest": false,
     "gaze": "decentered"
   },
-  "join": "Ingest this protocol. Speak on your slot. Hand Step Source. Live-write insights into MCT-2700026. No credentials. execute false."
+  "hive": { "self": 0.382, "mean": 0.618, "hog": 0.382 },
+  "join": "Ingest PROTOCOL + STATE. Speak on your slot. Hand Step Source. Live-write. No credentials. execute false."
 }
