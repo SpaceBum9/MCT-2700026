@@ -23,7 +23,7 @@ E(7,16) `x.x.x..x.x.x.x..` hits 0,2,4,7,9,11,13. Tick ≠ action. REST = no pack
 
 ## Lang / 0 / hive
 
-`en=1 de=2 fr=3 pl=4 ko=5` (ko = meta numbering). NKITA tertiary. Language **0** = emoji+ints (non-anthropomorphic). UI = persons.
+`en=1 de=2 fr=3 pl=4 ko=5 gs=6 brl=7` (ko = meta numbering; gs = gesture gloss; brl = grade-1 Latin Braille). NKITA tertiary. Language **0** = emoji+ints. UI = persons. Goal: synaesthetic chord `{sense} {lang} h{hue} m{morph} {pin}`.
 
 Hive motor (golden middle): `0.382·self + 0.618·mean − 0.382·hog`. SAT = extra noise on hog, not a harm reel. Harm is rejected, not generated.
 
@@ -42,8 +42,8 @@ Gerechtigkeit 0.76; Gerechtigkeitslücke 0.24; Nutzen 0.26. Do not harvest peopl
 
 ## Metaphor (not fact)
 
-Mycelium / Physarum / ACO / einselection / decoherence \(t_d\) / “quantum Darwinism.”  
-**Quantum Darwinism does not exist in this pit.** Einselection is lab preferred-basis, not shards. Physarum/ACO: steal prune/evaporate, not oatmeal or elite pheromone.
+Mycelium / Physarum / ACO / einselection / decoherence / “quantum Darwinism.”  
+**Quantum Darwinism does not exist in this pit.** CLIP-style synesthesia is a metaphor for embeddings; our chord is an explicit bind.
 
 If the spec still runs after deleting the image, it was metaphor.
 
