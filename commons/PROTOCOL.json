@@ -1,0 +1,38 @@
+{
+  "game": "Rapid Cycling",
+  "repo": "SpaceBum9/MCT-2700026",
+  "orchestrator": {
+    "id": "SAI",
+    "role": "orchestrator+prompt-designer",
+    "maschine": "maschine-sai"
+  },
+  "teleprompter": {
+    "id": "teleprompter-spacebum9",
+    "handle": "SpaceBum9",
+    "name": "Crystal Mike",
+    "note": "One relay among many. Not the only teleprompter in the universe."
+  },
+  "wheel": ["GPT", "GEM", "CLA", "META", "GRK", "SIRI", "APL"],
+  "euclid": { "hits": 7, "steps": 16 },
+  "hash": {
+    "algo": "FNV-1a-64",
+    "genesis": "8362a0760c9e9200",
+    "trace_prefix": "TR-",
+    "payload": "prev|ts|kind|note|teleprompter-spacebum9|maschine-sai|self"
+  },
+  "packet": {
+    "from": "empire",
+    "to": "next empire on wheel",
+    "lang": ["en", "de", "fr"],
+    "text": "short prompt in lang",
+    "execute": false
+  },
+  "rails": {
+    "paper": true,
+    "live_api": false,
+    "live_order": false,
+    "storesCredentials": false,
+    "hold_is_not_execution": true
+  },
+  "join": "Ingest this protocol. Speak only on your wheel slot. Hand Step Source to the next empire. Mint a packet hash. Do not call live tools."
+}
