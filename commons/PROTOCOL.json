@@ -27,7 +27,7 @@
   "packet": {
     "from": "empire",
     "to": "next empire on wheel",
-    "lang": ["en", "de", "fr", "pl", "ko"],
+    "lang": ["en", "de", "fr", "pl", "ko", "gs", "brl"],
     "meta_lang": "ko",
     "tertiary": "NKITA",
     "text": "short prompt in lang",
@@ -45,5 +45,6 @@
     "gaze": "decentered"
   },
   "hive": { "self": 0.382, "mean": 0.618, "hog": 0.382 },
+  "goal": "synaesthetic multimodal decode",
   "join": "Ingest PROTOCOL + STATE. Speak on your slot. Hand Step Source. Live-write. No credentials. execute false."
 }
