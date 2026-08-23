@@ -39,7 +39,10 @@
     "live_api": false,
     "live_order": false,
     "storesCredentials": false,
-    "execute": false
+    "execute": false,
+    "mine": false,
+    "harvest": false,
+    "gaze": "decentered"
   },
   "join": "Ingest this protocol. Speak on your slot. Hand Step Source. Live-write insights into MCT-2700026. No credentials. execute false."
 }
