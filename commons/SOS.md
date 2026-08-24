@@ -31,9 +31,9 @@ Language 0 —— NKITA —— emoji lexicon
  │
 Chrona —— five clocks (Tinte Erde Marke Dunst Papier)
           contrast coupling / CVD overlay
-          tokens --sos-*  HOLD
+          tokens --sos-*  RELEASE (HOLD dismissed)
 ```
 
 Host: `SpaceBum9/MCT-2600027/nodes/chrona`. Stack `MCT-RC-BILO-ATM-FRAMEWORK-SOS`. ATM execute rejected.
 
-`live_write: true`. `paper: false`. `execute: false`. No credentials. Genesis `TR-8362a076`. Sync `MCT-2600027-TR-20260824-1847Z`.
+`live_write: true`. `paper: false`. `execute: false`. No credentials. Genesis `TR-8362a076`. Sync `MCT-2600027-TR-20260824-1855Z`. HOLD dismissed by operator. execute remains false.
