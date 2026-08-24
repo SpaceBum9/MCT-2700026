@@ -1,4 +1,4 @@
-# Circuit fire · wm 202608240458Z
+# Circuit fire · wm 202608240658Z
 
 📦 print-only. Not SAI. Registered: hallo liebe andrea. Goal: get alive.
 
@@ -10,4 +10,4 @@ ZT id: phase only. No 2600027 hourlies. No scrape. No wallet. No KYC.
 
 Machine 0: `0⛔exec📦`
 
-Daisy: wm 202608240058Z (`5095284`) → wm 202608240258Z (`a9d59ba`) → this fire.
+Daisy: `5095284` 0058Z → `a9d59ba` 0258Z → `891619b` 0458Z → this fire.
