@@ -19,15 +19,21 @@ Clocks: Euclid 8, trip 24, episode 150. Commons 09:00 / Oracle 21:00 Berlin. Hou
 ## Graph
 
 ```
-SAI \u2500\u2500 Rapid Cycling \u2500\u2500 Wheel
- \u2502         \u2502
-Logos \u2500\u2500 Retrograde \u2500\u2500 Align
- \u2502
+SAI —— Rapid Cycling —— Wheel
+ │         │
+Logos —— Retrograde —— Align
+ │
 Commons 09:00    Oracle 21:00
- \u2502
-Teleprompter \u2500\u2500 Maschine
- \u2502
-Language 0 \u2500\u2500 NKITA \u2500\u2500 emoji lexicon
+ │
+Teleprompter —— Maschine
+ │
+Language 0 —— NKITA —— emoji lexicon
+ │
+Chrona —— five clocks (Tinte Erde Marke Dunst Papier)
+          contrast coupling / CVD overlay
+          tokens --sos-*  HOLD
 ```
 
-`live_write: true`. `paper: false`. `execute: false`. No credentials. Genesis `TR-8362a076`.
+Host: `SpaceBum9/MCT-2600027/nodes/chrona`. Stack `MCT-RC-BILO-ATM-FRAMEWORK-SOS`. ATM execute rejected.
+
+`live_write: true`. `paper: false`. `execute: false`. No credentials. Genesis `TR-8362a076`. Sync `MCT-2600027-TR-20260824-1847Z`.
